@@ -5,6 +5,6 @@ int main() {
 	double R[10]; //Declare an array of length 10, starting from 0 and ending at 9. R[0] = 0
 	double area, perimeter;
 	int i;
-	R[0] = 2.18;r
+	R[0] = 2.18;
 
 }

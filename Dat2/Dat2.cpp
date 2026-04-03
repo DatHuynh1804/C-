@@ -16,4 +16,4 @@ ofstream myfile ("AREA.DAT");
 for (i = 0, i < N, i++) :
 	Area = PI * R[i] * R[i];
 	Perimeter = 2 * PI * R[i];
-	myfile << ()
+	myfile << (i+1)

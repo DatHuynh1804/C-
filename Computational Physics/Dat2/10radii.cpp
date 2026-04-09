@@ -16,8 +16,8 @@ int main() {
 	for (int i = 0; i < N; i++) {
 		Area = PI * R[i] * R[i];
 		Perimeter = 2 * PI * R[i];
-		myFile << defaultfloat << setprecision(6) << i + 1 << ") R = " << R[i] << "\n";
-		myFile << fixed << setprecision (4) << "Area = " << Area << "\n"
+		myFile << defaultfloat << setprecision(6) << i + 1 << ") R = " << R[i] << "\n"; //defaultfloat + setprecision(n) = total numbers of significant figures
+		myFile << fixed << setprecision (4) << "Area = " << Area << "\n" //fixed + setprecision(n) = the numbers of digits after the decimal point
 			   << "Perimeter = " << Perimeter << "\n";
 	}
 	myFile.close();
